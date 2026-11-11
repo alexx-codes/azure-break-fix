@@ -20,7 +20,7 @@ Azure security lab: build with Terraform, plant misconfigurations, detect them w
 
 | Framework | Role in this project |
 |-----------|----------------------|
-| **CIS Microsoft Azure Foundations Benchmark** | Primary benchmark. Every scanner check carries a CIS recommendation ID. Version is pinned in `docs/benchmarks.md`. |
+| **CIS Microsoft Azure Foundations Benchmark** | Primary benchmark. Every scanner check carries a CIS recommendation ID. Version is pinned in `scanner/Frameworks.txt. |
 | **Microsoft Cloud Security Benchmark (MCSB)** | Secondary cross-reference. Used to compare against Microsoft Defender for Cloud scoring. |
 | **MITRE ATT&CK (Cloud matrix)** | Maps each planted misconfiguration to the attacker technique it enables. |
 
